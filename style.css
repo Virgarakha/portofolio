@@ -1,0 +1,575 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
+
+html {
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(20, 88, 165);
+}
+
+/* bgnavbar */
+.layer1 {
+  background-image: url(New\ Project\ 67\ [53BFA80].png);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* display - navbar logo dengan a */
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+/* display - navbar logo dengan a */
+
+/* navbar - logo */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.logo h1 {
+  color: white;
+}
+
+/* navbar - logo */
+
+/* item-navbar */
+.itemnavbar {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.itemnavbar a img {
+  width: 70px;
+}
+
+.itemnavbar a {
+  text-decoration: none;
+}
+/* item-navbar */
+
+/* welcome - teks */
+.welcome2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* ------sisikiri */
+.sisikiri h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.sisikiri p {
+  color: white;
+}
+
+/* sisikanan------ */
+.sisikanan img {
+  width: 500px;
+}
+
+/* welcome - teks */
+
+/* layer2 ---------------------- layer2 */
+.layer2 {
+  margin-top: 10px;
+  background-image: url(New\ Project\ 65\ [77EB859].png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+/* display kiri - kanan */
+.isi2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 150px;
+}
+
+/* sisikiri */
+
+.tekskiri {
+  display: block;
+}
+
+.tekskiri h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.tekskiri p {
+  color: white;
+  font-size: 15px;
+}
+
+/* sisikanan */
+
+.gambarkanan img {
+  width: 500px;
+}
+
+/* layer3 */
+
+.layer3 {
+  background-color: white;
+  width: 100%;
+  height: 115vh;
+}
+
+.about h1 {
+  text-align: center;
+  font-weight: 200;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about3 {
+  width: 40%;
+  background-color: #ffffff;
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.about2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about3 h2 {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.about3 p {
+  font-size: 15px;
+}
+
+.skill h1 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  border: 2px solid #3d4cf5;
+  width: 10%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.skill h1 span {
+  color: #3d4cf5;
+}
+
+.fe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: skil alternate 1s ease-in-out infinite;
+}
+
+.skill2 .fe img {
+  width: 100px;
+}
+
+.ge {
+  display: flex;
+  justify-content: center;
+  animation: skil2 alternate 1s ease-in-out infinite;
+  align-items: center;
+}
+
+.skill2 .ge img {
+  width: 150px;
+}
+
+.produk2 p {
+  color: red;
+  text-align: center;
+}
+
+/* layer4--------------- */
+.layer4 {
+  background-image: url(bgcontact.png);
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+
+.itemcont {
+  width: 200%;
+  height: 100px;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 5px;
+  margin: 15px;
+}
+
+.itemcont img {
+  width: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  align-items: center;
+}
+
+.contact4 h3 {
+  color: white;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.contact4 input {
+  padding: 150px 200px;
+  text-align: start;
+  
+}
+
+.contact4 a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.layer4 h1 {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+/* keyframe */
+@keyframes skil {
+  from {
+    margin-right: 0px;
+  }
+  to {
+    margin-right: 20px;
+  }
+}
+@keyframes skil2 {
+  from {
+    margin-left: 0px;
+  }
+  to {
+    margin-left: 20px;
+  }
+}
+/* keyframe */
+
+/* medquer */
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  /* bgnavbar */
+  .layer1 {
+    background-image: url(New\ Project\ 67\ [53BFA80].png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  /* display - navbar logo dengan a */
+  .navbar2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+  }
+  /* display - navbar logo dengan a */
+
+  /* navbar - logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  .logo h1 {
+    color: white;
+  }
+
+  /* navbar - logo */
+
+  /* item-navbar */
+  .itemnavbar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+  .itemnavbar a img {
+    width: 35px;
+  }
+
+  .itemnavbar a {
+    text-decoration: none;
+  }
+  /* item-navbar */
+
+  /* welcome - teks */
+  .welcome2 {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  /* ------sisikiri */
+  .sisikiri h1 {
+    color: white;
+    font-size: 27px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    display: block;
+  }
+
+  .sisikiri p {
+    color: white;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 10px;
+  }
+
+  /* sisikanan------ */
+  .sisikanan img {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 50px;
+  }
+
+  /* welcome - teks */
+
+  /* layer2 ---------------------- layer2 */
+  .layer2 {
+    margin-top: 10px;
+    background-image: url(New\ Project\ 65\ [77EB859].png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+
+  /* display kiri - kanan */
+  .isi2 {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  /* sisikiri */
+
+  .tekskiri {
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .tekskiri h1 {
+    color: white;
+    font-size: 27px;
+  }
+
+  .tekskiri p {
+    color: white;
+    font-size: 10px;
+  }
+
+  /* sisikanan */
+
+  .gambarkanan img {
+    width: 250px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    display: block;
+  }
+
+  /* layer3 */
+  .layer3 {
+    background-color: white;
+    width: 100%;
+    height: 150vh;
+  }
+
+  .about h1 {
+    text-align: center;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .about3 {
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  .about2 {
+    display: block;
+  }
+
+  .about3 h2 {
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .about3 p {
+    font-size: 15px;
+  }
+
+  .skill h1 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border: 2px solid #3d4cf5;
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .skill h1 span {
+    color: #3d4cf5;
+  }
+
+  .fe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: skil alternate 1s ease-in-out infinite;
+  }
+
+  .skill2 .fe img {
+    width: 50px;
+  }
+
+  .ge {
+    display: flex;
+    justify-content: center;
+    animation: skil2 alternate 1s ease-in-out infinite;
+    align-items: center;
+  }
+
+  .skill2 .ge img {
+    width: 70px;
+  }
+
+  .produk2 p {
+    color: red;
+    text-align: center;
+  }
+
+  /* layer4--------------- */
+.layer4 {
+  background-image: url(bgcontact.png);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+.itemcont {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: white;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.itemcont p {
+  font-size: 10px;
+}
+
+.itemcont img {
+  width: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact {
+  display: block;
+  margin-right: auto;
+  margin-right: auto;
+}
+
+
+.contact4 h3 {
+  color: white;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.contact4 input {
+  padding: 20px 5px;
+  text-align: start;
+  
+}
+
+.contact4 a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.layer4 h1 {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  font-size: 40px;
+  padding-top: 40px;
+}
+}
